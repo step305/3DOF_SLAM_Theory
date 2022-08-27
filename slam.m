@@ -1,0 +1,3 @@
+ function [q, gyr_errors, P, map] = ...
+        slam(q, gyr_errors, dthe_current, measured_features, P, map, cam, dt)
+ end
